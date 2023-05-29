@@ -38,6 +38,7 @@
     нажать на неё и получить результат в <p id="result">Result</p>.
 
 ***sum_drop-down_list.py***
+
     Необходимо на сайте http://parsinger.ru/selenium/7/7.html с помощью Selenium
     получить значения всех элементов выпадающего списка и суммировать их.
     Затем вставить получившийся результат в поле на сайте, нажать кнопку и получить результат.
@@ -167,7 +168,7 @@
     window_size_x = [516, 648, 680, 701, 730, 750, 805, 820, 855, 890, 955, 1000]
     window_size_y = [270, 300, 340, 388, 400, 421, 474, 505, 557, 600, 653, 1000]
 
-***lick_buttons_and_sum_titles.py***
+***сlick_buttons_and_sum_titles.py***
 
     Открыть сайт http://parsinger.ru/blank/3/index.html с помощью Selenium.
     На сайте есть 10 buttons, каждый button откроет сайт в новой вкладке, каждая вкладка имеет в title
@@ -179,11 +180,18 @@
     Есть список сайтов (6 шт), на каждом сайте есть chekbox, при нажатии на этот chekbox появляется код.
     Необходимо открыть с помощью Selenium все сайты во вкладках (.window_handles), пройти в цикле по каждой
 	вкладке, нажать на chekbox и получить код.
-    Из каждого числа, необходимо извлечь корень, функцией sqrt(), суммировать получившиеся корни и получить результат.
+    Из каждого числа, необходимо извлечь корень, функцией sqrt(), суммировать получившиеся корни 
+	и получить результат.
    
-    Верный ответ содержит  9 знаков после запятой, т.е имеет вид 000000.000000000, для округления используйте функцию round()
+    Верный ответ содержит  9 знаков после запятой, т.е имеет вид 000000.000000000, 
+	для округления используйте функцию round()
  
-    sites = ['http://parsinger.ru/blank/1/1.html', 'http://parsinger.ru/blank/1/2.html', 'http://parsinger.ru/blank/1/3.html', 'http://parsinger.ru/blank/1/4.html', 'http://parsinger.ru/blank/1/5.html', 'http://parsinger.ru/blank/1/6.html',]
+    sites = ['http://parsinger.ru/blank/1/1.html', 
+             'http://parsinger.ru/blank/1/2.html',
+			 'http://parsinger.ru/blank/1/3.html',
+			 'http://parsinger.ru/blank/1/4.html',
+			 'http://parsinger.ru/blank/1/5.html',
+			 'http://parsinger.ru/blank/1/6.html',]
 
 ***catch_title_and_get_result.py***
 
